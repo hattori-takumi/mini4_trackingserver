@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="oscpack">
+      <UniqueIdentifier>{eee272e9-3621-4f75-bc65-d5a507a0318d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="oscpack\ip">
+      <UniqueIdentifier>{83675d46-38f0-4ff2-9e7c-f0f4366a104d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="oscpack\osc">
+      <UniqueIdentifier>{91109774-69f8-4e40-a256-f5e6956ffa12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TestM4.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientArea.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdParty\oscpack_1_1_0\ip\IpEndpointName.h">
+      <Filter>oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdParty\oscpack_1_1_0\ip\NetworkingUtils.h">
+      <Filter>oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdParty\oscpack_1_1_0\ip\PacketListener.h">
+      <Filter>oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdParty\oscpack_1_1_0\ip\TimerListener.h">
+      <Filter>oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdParty\oscpack_1_1_0\ip\UdpSocket.h">
+      <Filter>oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdParty\oscpack_1_1_0\osc\MessageMappingOscPacketListener.h">
+      <Filter>oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdParty\oscpack_1_1_0\osc\OscException.h">
+      <Filter>oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdParty\oscpack_1_1_0\osc\OscHostEndianness.h">
+      <Filter>oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdParty\oscpack_1_1_0\osc\OscOutboundPacketStream.h">
+      <Filter>oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdParty\oscpack_1_1_0\osc\OscPacketListener.h">
+      <Filter>oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdParty\oscpack_1_1_0\osc\OscPrintReceivedElements.h">
+      <Filter>oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdParty\oscpack_1_1_0\osc\OscReceivedElements.h">
+      <Filter>oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdParty\oscpack_1_1_0\osc\OscTypes.h">
+      <Filter>oscpack\osc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestM4.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientArea.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ThirdParty\oscpack_1_1_0\ip\IpEndpointName.cpp">
+      <Filter>oscpack\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ThirdParty\oscpack_1_1_0\ip\win32\NetworkingUtils.cpp">
+      <Filter>oscpack\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ThirdParty\oscpack_1_1_0\ip\win32\UdpSocket.cpp">
+      <Filter>oscpack\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ThirdParty\oscpack_1_1_0\osc\OscOutboundPacketStream.cpp">
+      <Filter>oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ThirdParty\oscpack_1_1_0\osc\OscPrintReceivedElements.cpp">
+      <Filter>oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ThirdParty\oscpack_1_1_0\osc\OscReceivedElements.cpp">
+      <Filter>oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ThirdParty\oscpack_1_1_0\osc\OscTypes.cpp">
+      <Filter>oscpack\osc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestM4.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="TestM4.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

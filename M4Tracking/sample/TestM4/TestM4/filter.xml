@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<msxml_storage>
+<filterType>0</filterType>
+<histSize>100.</histSize>
+<predictPointNum>40.</predictPointNum>
+<approximation>0.</approximation>
+<neighAverage>1.</neighAverage>
+<antiReverse>0.</antiReverse>
+<checkNear>0.</checkNear>
+<arV>15.</arV>
+<arArea>20.</arArea>
+<arMajority>0.</arMajority>
+<arCount>5.</arCount>
+<historyNum>150.</historyNum>
+<nearSampleRange>2.</nearSampleRange>
+<neighborhoodRange>5.</neighborhoodRange>
+<neighborhoodNum>10.</neighborhoodNum>
+<compFactor>10.</compFactor>
+<compGain>23.</compGain>
+</msxml_storage>
